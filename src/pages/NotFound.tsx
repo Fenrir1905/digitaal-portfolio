@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useLanguage } from "../i18n/LanguageContext";
 
 export default function NotFound() {
@@ -10,7 +11,7 @@ export default function NotFound() {
             <h2 className="mb-3 ms-1">{t.notfound.notFoundTitle}</h2>
 
             <p className="text-muted mb-4 ms-1">
-             {t.notfound.notfoundText}<a href="/">home</a>.
+             {t.notfound.notfoundText}<Link to="/">home</Link>.
             </p>
           </div>
         </div>

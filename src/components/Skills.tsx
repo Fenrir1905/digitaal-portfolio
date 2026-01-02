@@ -1,4 +1,5 @@
 import { useLanguage } from "../i18n/LanguageContext";
+import { Link } from "react-router-dom";
 
 export default function Skills() {
 
@@ -18,7 +19,7 @@ export default function Skills() {
             </div>
           ))}
         </div>
-        <p className="text-center mt-4 mb-4">{t.home.more} <a href="/about">{t.home.here}</a>!</p>
+        <p className="text-center mt-4 mb-4">{t.home.more} <Link to="/about">{t.home.here}</Link>!</p>
       </div>
     </section>
   );

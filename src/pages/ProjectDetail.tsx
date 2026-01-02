@@ -23,7 +23,7 @@ export default function ProjectDetail() {
             <h2 className="mb-3 ms-1">{t.projects.notFoundTitle}</h2>
 
             <p className="text-muted mb-4 ms-1">
-              {t.projects.notFoundText}<a href="/projects">{t.projects.myProjects}</a>.
+              {t.projects.notFoundText}<Link to="/projects">{t.projects.myProjects}</Link>.
             </p>
           </div>
         </div>

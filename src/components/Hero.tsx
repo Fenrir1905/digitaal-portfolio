@@ -1,9 +1,11 @@
 import bgImage from '../images/background.jpg';
 import { useLanguage } from "../i18n/LanguageContext";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
 
 const { t } = useLanguage();
+ const navigate = useNavigate();
 
   return (
     <section
@@ -28,8 +30,8 @@ const { t } = useLanguage();
       <div className="text-center" style={{ position: "relative", zIndex: 1 }}>
         <h1 className="display-4 mb-3">Milan Bequet</h1>
         <p className="lead mb-4">{t.home.subtitle}</p>
-        <a href="/projects" className="btn btn-primary btn-lg me-2">{t.navbar.projects}</a>
-        <a href="/about" className="btn btn-outline-light btn-lg">{t.navbar.about}</a>
+        <a onClick={() => navigate("/projects")} className="btn btn-primary btn-lg me-2">{t.navbar.projects}</a>
+        <a onClick={() => navigate("/about")} className="btn btn-outline-light btn-lg">{t.navbar.about}</a>
       </div>
     </section>
   );
