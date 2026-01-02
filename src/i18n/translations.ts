@@ -95,13 +95,13 @@ export const translations = {
     },
     notfound: {
         notFoundTitle: "Page not found",
-        notfoundText: "The project you are looking for does not exist or is no longer available. Return to "
+        notfoundText: "The page you are looking for does not exist or is no longer available. Return to "
     },
     projects: {
       title: "Projects",
       notFoundTitle: "Project not found",
       notFoundText:
-        "The project you are looking for does not exist or is no longer available.",
+        "The project you are looking for does not exist or is no longer available. Return to ",
       myProjects: "my projects",
       technologies: "Technologies",
       projectType: "Type of project",
