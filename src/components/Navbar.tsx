@@ -19,7 +19,7 @@ export default function Navbar() {
             <li className="nav-item"><Link className="nav-link" to="/about">{t.navbar.about}</Link></li>
           </ul> 
           <button
-            className="btn btn-sm ms-3"
+            className="btn btn-sm"
             onClick={() => setLanguage(language === "nl" ? "en" : "nl")} aria-label="Change language">
             <img
               src={language === "nl" ? "/flags/flagEn.svg" : "/flags/flagNl.svg"}
