@@ -9,7 +9,7 @@ export default function Projects() {
   const projects = language === "nl" ? projectsNl : projectsEn;
 
   return (
-      <div className="container-fluid pb-4" style={{ backgroundColor: '#f8f9fa', minHeight: '85vh'}}>
+      <div className="container-fluid pb-4 about-background" style={{ backgroundColor: '#f8f9fa', minHeight: '85vh'}}>
       <div className="container py-4 mt-5 pt-4 bg-white shadow-sm rounded-2" style={{ minHeight: '85vh' }}>
         <h2 className="ms-1">{t.projects.title}</h2>
 

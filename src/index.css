@@ -59,3 +59,37 @@ button:focus-visible {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
+.about-background {
+  min-height: 85vh;
+  filter: saturate(0.9);
+  background:
+    /* Fade naar wit boven */
+    linear-gradient(to bottom, #ffffff 0%, transparent 100px),
+
+    /* Fade naar wit onder */
+    linear-gradient(to top, #ffffff 0%, transparent 100px),
+
+    /* Subtiele kleur links & rechts */
+    linear-gradient(to right,
+      #f4f6fa 0%,
+      #f4f6fa 15%,
+      #f7f8fb 30%,
+      #ffffff 40%,
+      #ffffff 60%,
+      #f7f8fb 70%,
+      #f4f6fa 85%,
+      #f4f6fa 100%
+    );
+    
+}
+
+.container.bg-white {
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  
+}
+
+
+
+
+
