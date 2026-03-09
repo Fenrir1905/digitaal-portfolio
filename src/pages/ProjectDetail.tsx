@@ -31,7 +31,7 @@ export default function ProjectDetail() {
     }
 
   return (
-   <div className="container-fluid pb-4" style={{ backgroundColor: '#f8f9fa', minHeight: '85vh'}}>
+   <div className="container-fluid pb-4" style={{ backgroundColor: '#f8f9fa', minHeight: '85vh'}} data-aos="fade-up" data-aos-delay="100">
       <div className="container py-5 mt-5 pt-4 bg-white shadow-sm rounded-2" style={{ minHeight: '85vh' }}>
 
         <h2 className="mb-3 ms-1">{project.title}</h2>

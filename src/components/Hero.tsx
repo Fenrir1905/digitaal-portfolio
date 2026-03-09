@@ -16,6 +16,7 @@ const { t } = useLanguage();
         backgroundPosition: "center",
         position: "relative"
       }}
+      data-aos="fade-up" data-aos-delay="100"
     >
       <div
         style={{

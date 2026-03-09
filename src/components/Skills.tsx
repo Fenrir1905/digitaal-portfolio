@@ -7,7 +7,7 @@ export default function Skills() {
   const skills = ['C# / .NET', 'Java', 'Javascript', 'Typescript', 'Blazor', 'Angular', 'React', 'SQL' ,'MongoDB', 'Serverless', 'Bootstrap', 'Tailwind'];
 
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 bg-light" data-aos="fade-up" data-aos-delay="100">
       <div className="container">
         <h2 className="text-center mb-4">{t.home.mySkills}</h2>
         <div className="row g-4">
