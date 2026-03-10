@@ -89,7 +89,16 @@ button:focus-visible {
   
 }
 
+.navbar-transparent {
+  /* background: rgba(255, 255, 255, 0.3); */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
 
+.navbar-transparent .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
 
-
-
+.navbar-transparent .nav-link:hover {
+  color: white;
+}

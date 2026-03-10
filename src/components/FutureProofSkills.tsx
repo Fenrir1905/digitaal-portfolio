@@ -6,7 +6,7 @@ export default function FutureProofSkills(){
      
     return(
         <>
-        <section className="py-5 section-muted">
+        <section className="py-2 section-muted" data-aos="fade-up" data-aos-delay="100">
         <h2 className="mb-4 ms-1">{t.futureProof.softSkills}</h2>
         <div className="row mb-3 ms-1">
             <div className="col-md-4 fw-bold">

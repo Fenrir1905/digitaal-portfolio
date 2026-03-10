@@ -33,7 +33,7 @@ export default function SkillsExtended() {
   return (
     <>
     <h2 className="ms-1">{t.skillsExt.skills}</h2>
-    <section className="py-5 section-muted">
+    <section className="py-5 section-muted" data-aos="fade-up" data-aos-delay="100">
       <div className="container">
         <div className="row g-4">
           {skills.map((skill, idx) => (

@@ -22,7 +22,7 @@ export const translations = {
       backToProjects: "Terug naar projecten"
     },
     home: {
-        subtitle: "Toegepaste Informatica student – Fullstack developer",
+        subtitle: "Bachelor Toegepaste Informatica – Full-Stack Developer",
         mySkills: "Mijn skills",
         more: "en nog veel meer ",
         here: "hier"
@@ -74,7 +74,7 @@ export const translations = {
      about: {
         aboutMe: "Over mij",
         paragraphs: [
-            "Ik ben een derdejaarsstudent Toegepaste Informatica aan HOGENT, met specialisatie fullstack webdevelopment. Ik ben geïnteresseerd in het ontwikkelen van gebruiksvriendelijke en efficiënte webapplicaties, waarbij ik zowel aan de frontend als de backend werk.",
+            "Ik ben een recent afgestudeerde software developer, met specialisatie fullstack webdevelopment. Ik ben geïnteresseerd in het ontwikkelen van gebruiksvriendelijke en efficiënte webapplicaties, waarbij ik zowel aan de frontend als de backend werk.",
 
             "Tijdens mijn studie heb ik kennis kunnen maken met verschillende technologieën zoals C#, Blazor, JavaScript, TypeScript, React, Java en diverse databases zoals SQL en MongoDB. Ik vind het bijzonder interessant om complexe problemen op te lossen met efficiënte en schaalbare softwareoplossingen.",
 
@@ -110,7 +110,7 @@ export const translations = {
       backToProjects: "Back to projects"
     },
     home: {
-        subtitle: "Applied Informatics student – Fullstack developer",
+        subtitle: "Applied Computer Science Graduate – Full-Stack Developer",
         mySkills: "My skills",
         more: "and much more ",
         here: "here"
@@ -162,7 +162,7 @@ export const translations = {
     about: {
         aboutMe: "About me",
         paragraphs: [
-            "I am a third-year Applied Informatics student at HOGENT, specializing in fullstack web development. I am interested in building user-friendly and efficient web applications, working on both frontend and backend.",
+            "I am a recently graduated software developer specializing in full-stack web development. I am interested in building user-friendly and efficient web applications, working on both frontend and backend.",
 
             "During my studies, I have gained experience with technologies such as C#, Blazor, JavaScript, TypeScript, React, Java, and various databases like SQL and MongoDB. I enjoy solving complex problems with efficient and scalable software solutions.",
 

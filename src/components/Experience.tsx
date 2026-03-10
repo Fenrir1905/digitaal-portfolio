@@ -10,7 +10,7 @@ export default function Experience() {
   return (
     <>
       <h2 className='ms-1'>{t.experience.experience}</h2>
-      <section className="py-5">
+      <section className="py-5" data-aos="fade-up" data-aos-delay="100">
         <div className="container">
           <div className="row g-4">
             {t.experience.items.map((exp, idx) => (
