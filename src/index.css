@@ -102,3 +102,7 @@ button:focus-visible {
 .navbar-transparent .nav-link:hover {
   color: white;
 }
+
+.navbar {
+  transition: all 0.5s ease;
+}

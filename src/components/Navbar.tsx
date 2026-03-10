@@ -1,16 +1,34 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from "../i18n/LanguageContext";
+import { useEffect, useState } from 'react';
 
 export default function Navbar() {
 
   const { t, language, setLanguage } = useLanguage();
+  const [scrolled, setScrolled] = useState(false);
 
   const location = useLocation();
 
   const isHome = location.pathname === "/";
 
+   useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 750);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const navbarClass = isHome
+    ? scrolled
+      ? "navbar navbar-expand-lg navbar-light bg-light fixed-top shadow"
+      : "navbar navbar-expand-lg navbar-dark navbar-transparent fixed-top"
+    : "navbar navbar-expand-lg navbar-light bg-light fixed-top";
+
   return (
-   <nav className={`navbar navbar-expand-lg fixed-top ${isHome ? "navbar-dark navbar-transparent" : "navbar-light bg-light"}`}>
+   <nav className={navbarClass}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">Milan Bequet</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
