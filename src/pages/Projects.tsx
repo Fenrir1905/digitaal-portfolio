@@ -31,7 +31,7 @@ export default function Projects() {
                     {project.technologies.map((t, idx) => (
                       <span
                         key={idx}
-                        className="badge bg-light text-dark me-1 mb-1"
+                        className="badge bg-primary text-light me-1 mb-1"
                       >
                         {t}
                       </span>

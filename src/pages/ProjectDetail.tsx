@@ -46,7 +46,7 @@ export default function ProjectDetail() {
             {project.technologies.map((tech, idx) => (
               <span
                 key={idx}
-                className="badge bg-light text-dark me-2 mb-2"
+                className="badge bg-primary text-light me-2 mb-2"
               >
                 {tech}
               </span>

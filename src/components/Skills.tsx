@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Skills() {
 
   const { t } = useLanguage();
-  const skills = ['C# / .NET', 'Java', 'Javascript', 'Typescript', 'Blazor', 'Angular', 'React', 'SQL' ,'MongoDB', 'Serverless', 'Bootstrap', 'Tailwind'];
+  const skills = ['C# / .NET', 'Java', 'Javascript', 'Typescript', 'Blazor', 'Angular', 'React', 'SQL' ,'MongoDB'];
 
   return (
     <section className="py-5 bg-light" data-aos="fade-up" data-aos-delay="100">
